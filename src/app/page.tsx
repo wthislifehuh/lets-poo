@@ -73,6 +73,7 @@ export default function Home() {
   return (
     <div className="container">
       <div className="phone-frame">
+        <div className="phone-content">
         <h1 className="title">Let's Poop</h1>
         <h2 className="timer">
           ⏳ {formatTime(elapsedTime)}
@@ -121,6 +122,7 @@ export default function Home() {
         )}
 
         <Link href="/map" className="map-link">🌍 View Global Poop Map</Link>
+        </div>
       </div>
     </div>
   );
